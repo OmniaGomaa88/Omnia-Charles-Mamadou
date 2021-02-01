@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="MyStyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Imbue:wght@200&display=swap" rel="stylesheet">
+    <title>Notre_Site</title>
+</head>
+
+<body>
+    <!----------------------------------------------------------------------------------------------->
+    <!-----------------Header----------------->
+
+
+    <header>
+        <div id="banner"></div>
+        <!------------Mettre un titre dans la bannière------------------->
+        <nav>
+            <ul>
+                <li id="logo" alt="logo"> </li>
+                <li><a href="#Qui">Qui sommes-nous?</a></li>
+                <li><a href="#servicesContainer">Nos services</a></li>
+                <li><a href="#notreProjects">Un aperçu de quelques projets...</a></li>
+                <li><a href="#equipe">Notre équipe</a></li>
+                <li><a href="#contacter">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!------------------------------------------------------------------------------------------------>
+    <div id="container">
+        <!--------section qui nous sommes--------->
+        <!--------section qui nous sommes--------->
+
+        <section id="Qui">
+            <h2 class="TextFond">Qui nous sommes...</h2>
+            <article id="QuiArticle">
+                <div id="text">
+                    <p><span>OMC</span> Voyages est née d'une véritable passion pour le tourisme.
+                        Notre exiperience et nos compétences vous garantissent un voyage inoubliable grâce à notre
+                        personnel expérimenté.
+                        Quelque soit votre distination, <span>OMC</span> vous accompagne.
+                        Nous proposons un programme organisé qui vous premet de profiter de votre voyage, de visiter les
+                        zones touristiques les plus impressionantes.<br>
+                        <span>Notre philosophie</span>:
+                        "qualité, engagement, disponibilité, confiance.
+                    </p>
+                </div>
+                <img src="nousSomme2.jpeg" alt="photo prsen l'entriprise">
+            </article>
+        </section>
+        <!------------------------------------------------------------------------------------------------>
+        <!-----------section services---------------->
+        <div class="seperat"></div>
+        <section id="servicesContainer">
+            <!--start of services-->
+            <h2 class="TextFond">Nos services</h2>
+            <!--header of service-->
+            <div id="servicSec">
+                <figure>
+                    <!--frist service contnaire-->
+                    <img src="consiler.jpeg" alt="service"><!--  frist service img-->
+                    <figcaption class="figSlide">
+                        <!--frist service text-->
+                        <h3>Conseiller</h3>
+                        <p>Nous vous proposons des destinations qui vous conviennent et nous vous accompagnons pour
+                            définir votre besoin. </p>
+                    </figcaption>
+                </figure>
+                <!--end of frist service-->
+                <!------------------------->
+                <figure>
+                    <!--secound service-->
+                    <img src="reservationHotel.jpeg" alt="service"><!--  cecound service img-->
+                    <figcaption class="figSlide">
+                        <h3>Réservations</h3>
+                        <!--secound service text-->
+                        <p>Nous faisons vos réservations d'hotels , billet d'avion à des prix attrayants.Et vous
+                            garantissons les meilleurs plans. </p>
+                    </figcaption>
+                </figure><!-- end of secound service-->
+                <!--------------------->
+                <figure>
+                    <!--third service contnaire-->
+                    <img src="guide.jpeg" alt="service"><!--  third service img-->
+                    <figcaption class="figSlide">
+                        <h3>Guide</h3>
+                        <!--third service text-->
+                        <p>Nous vous proposons l'exiperience et le savoir faire de nos guides, qui vous accompange
+                            pendant votre séjour.</p>
+                    </figcaption>
+                </figure>
+                <!--end of third service contnaire-->
+
+                <!--  -->
+        </section>
+        <!--end of services-->
+        <div class="seperat"></div>
+        <!----------------------------------------------------------------------------------------------------->
+        <!-- start of section notre project -->
+        <section id="notreProjects">
+            <h2 class="TextFond"> Un aperçu de quelques projets...</h2>
+            <figure>
+
+                <div class="ImagAndText">
+                    <img src="Gréc.jpeg" alt="Gréc">
+                    <p>Gréc <span>2018</span></p>
+                </div>
+                <div class="ImagAndText">
+                    <img src="chutesAfrica.jpeg" alt="chutesAfrica">
+                    <p>Chutes victoria <span>2019</span></p>
+                </div>
+                <div class="ImagAndText">
+                    <img src="Asia.webp" alt="Asia">
+                    <p>Asia <span>2020</span></p>
+                </div>
+            </figure>
+
+        </section>
+        <!-- div pour separer -->
+        <div class="seperat"></div>
+        <!-- end of section notre project -->
+        <!----------Section profil de l'équipe----------->
+
+        <section id="equipe">
+            <h2 class="TextFond">Notre équipe</h2>
+            <div id="bloc_bouttons">
+                <!---buttons for slideshow--->
+                <button class="slideBtn"></button>
+                <button class="slideBtn"></button>
+                <button class="slideBtn"></button>
+            </div>
+            <div id="profilSection">
+                <!----block des profils------->
+                <article id="person">
+                    <!-------Premier profil------->
+                    <img id="image" src="AvatarOmnia.jpeg" alt="" class="carre" />
+                    <figcaption>
+                        <!-------photo de profil------>
+                        <h3 id="nom"> Omnia</h3>
+                        <p id="poste"> Directrice d'agence </p>
+                    </figcaption>
+                    <!-----description du profil-->
+                </article>
+            </div>
+        </section>
+        <div class="seperat"></div>
+        <!---------------------------------------------------------------------------------------------------->
+        <!-----------Formulaire de Contact------------------>
+
+        <section id="contacter">
+            <h2 class="TextFond">Contacter</h2>
+            <form>
+                <!--  start of form contacter -->
+                <input type="text" placeholder="Entrez votre nom">
+                <input type="email" placeholder="Entrez votre email">
+                <input type="text" placeholder="Entrez votre phone number">
+                <textarea placeholder="Votre Message"></textarea>
+                <input type="submit" value="Soumettre" />
+            </form>
+        </section>
+        <!----------------------------------------------------------------------------------------------------->
+
+        <footer>
+            <figure>
+                <img src="facebookIcon.svg" alt="facebook-icon" class="Secicon" />
+                <img src="tweeterIcon.svg" alt="twitter-icon" class="Secicon" />
+                <img src="inestgramIcon.svg" alt="instragm-icon" class="Secicon" />
+            </figure>
+            <p>Omnia_Mamadou_Charles_copyright@2021</p>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
