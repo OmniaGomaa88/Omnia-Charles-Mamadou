@@ -1,4 +1,4 @@
-# SiteVetrine project with group
+# SiteVetrine project company of tourisme (OMC)
 All the techniques detailed in this project are based on the manipulation of DOM. 
  * Desktop version only with some JavaScript animations 
  * The site has 5 sections
